@@ -1,7 +1,10 @@
 == AudioController
+= An HTML5 Audio Interface by Jay Contonio
 
-An HTML5 Audio Interface by Jay Contonio
-Example at http://poddy.sochdot.net
+Pulled out of a prototype you can see here: http://poddy.sochdot.net
+
+Currently uses jQuery for Event broadcasting. Will change that when I am done with my EventController script.
+Future releases will handle playlist support.
 
 = Example
 	var audioElement = new AudioController(path_to_sound_file);
