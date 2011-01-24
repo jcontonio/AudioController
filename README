@@ -1,5 +1,30 @@
 AudioController
 
-An HTML5 Audio Interface
+An HTML5 Audio Interface by Jay Contonio
+Example at http://poddy.sochdot.net
 
-I'll write more later
+@example
+var audioElement = new AudioController(path_to_sound_file);
+audioElement.play();
+
+Events
+AUDIO_PLAYING
+AUDIO_PAUSED
+AUDIO_TIMER_EVENT
+	Broadcasts totalTime, currenTime, and percentage
+AUDIO_COMPLETED
+
+Public methods
+
+load
+play
+pause
+reset
+
+Properties
+
+isPlaying
+currentTime
+supportsMP3
+supportsOgg
+supportsAudio
