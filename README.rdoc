@@ -1,7 +1,7 @@
 == AudioController
 = An HTML5 Audio Interface by Jay Contonio
 
-Pulled out of a prototype you can see here: http://poddy.sochdot.net
+Pulled out of a prototype of a new podcasting app I am working on with a friend.
 
 Currently uses jQuery for Event broadcasting. Will change that when I am done with my EventController script.
 Future releases will handle playlist support.
